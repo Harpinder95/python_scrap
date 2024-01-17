@@ -4,6 +4,8 @@ import requests
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
 import logging
+import pymongo
+from pymongo.mongo_client import MongoClient
 logging.basicConfig(filename="scrapper.log" , level=logging.INFO)
 
 app = Flask(__name__)
@@ -29,13 +31,13 @@ def index():
             prodRes = requests.get(productLink)
             prodRes.encoding='utf-8'
             prod_html = bs(prodRes.text, "html.parser")
-            print(prod_html)
+            # print(prod_html)
             commentboxes = prod_html.find_all('div', {'class': "_16PBlm"})
 
-            filename = searchString + ".csv"
-            fw = open(filename, "w")
-            headers = "Product, Customer Name, Rating, Heading, Comment \n"
-            fw.write(headers)
+            # filename = searchString + ".csv"
+            # fw = open(filename, "w")
+            # headers = "Product, Customer Name, Rating, Heading, Comment \n"
+            # fw.write(headers)
             reviews = []
             for commentbox in commentboxes:
                 try:
@@ -72,6 +74,13 @@ def index():
                           "Comment": custComment}
                 reviews.append(mydict)
             logging.info("log my final result {}".format(reviews))
+            uri = "mongodb+srv://Harry95:Harry12345@cluster0.uqopdhq.mongodb.net/?retryWrites=true&w=majority"
+            # Create a new client and connect to the server
+            client = MongoClient(uri)
+            # client = pymongo.MongoClient("mongodb+srv://Harry95:Harry12345@cluster0.uqopdhq.mongodb.net/?retryWrites=true&w=majority")
+            db = client['review_scrap']
+            review_col = db['review_scrap_data']
+            review_col.insert_many(reviews)
             return render_template('result.html', reviews=reviews[0:(len(reviews)-1)])
         except Exception as e:
             logging.info(e)
@@ -84,3 +93,4 @@ def index():
 
 if __name__=="__main__":
     app.run(host="0.0.0.0")
+

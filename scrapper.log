@@ -5386,3 +5386,223 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.8:5000/ (Press CTRL+C to quit)
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.8:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 696-986-631
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.8:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:03:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:03:12] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:03:12] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:03:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:03:28] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:03:28] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:03:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'samsungs23', 'Name': 'Rajesh S Hattaraki', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Camera and display quality is awesomeThere is no comparison in this segment.'}, {'Product': 'samsungs23', 'Name': 'Nagesh', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Amazing camera and Good performance..best choice'}, {'Product': 'samsungs23', 'Name': 'Deepak Gowda', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Nice phone with best camera. Face id recognization average..'}, {'Product': 'samsungs23', 'Name': 'Rishabh ', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Amazing photos, elegant design'}, {'Product': 'samsungs23', 'Name': 'HARSHIL MEHTA', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Amazing Product, Light Weight, Best Camera, Handy, Compact Premium Smart Phone.'}, {'Product': 'samsungs23', 'Name': 'Kishore Charan', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'This time Samsung does very well. Currently Best Premium Smartphone in market.'}, {'Product': 'samsungs23', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Finally received after 20 days in pre-order sale. Mobile is great in every aspect. Camera is perfect.'}, {'Product': 'samsungs23', 'Name': 'Gaurav  Apte', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Portrait mode is excellent.Night mode performance is very good.pictures are clear and sharp.Charging speed could have been better but yes battery is optimised very well so easily lasts for a day.'}, {'Product': 'samsungs23', 'Name': 'Pranshu  Singh', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'From iphone 12 mini to this Best phone'}, {'Product': 'samsungs23', 'Name': 'Amit Shah', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Amazing phone by Samsung, except battery life it gives absolute flagship performance and I loved it...'}, {'Product': 'samsungs23', 'Name': 'Amit Shah', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Amazing phone by Samsung, except battery life it gives absolute flagship performance and I loved it...'}]
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:03:45] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:03:45] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:03:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.8:5000/ (Press CTRL+C to quit)
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'samsungs23', 'Name': 'Rajesh S Hattaraki', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Camera and display quality is awesomeThere is no comparison in this segment.'}, {'Product': 'samsungs23', 'Name': 'Nagesh', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Amazing camera and Good performance..best choice'}, {'Product': 'samsungs23', 'Name': 'Deepak Gowda', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Nice phone with best camera. Face id recognization average..'}, {'Product': 'samsungs23', 'Name': 'Rishabh ', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Amazing photos, elegant design'}, {'Product': 'samsungs23', 'Name': 'HARSHIL MEHTA', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Amazing Product, Light Weight, Best Camera, Handy, Compact Premium Smart Phone.'}, {'Product': 'samsungs23', 'Name': 'Kishore Charan', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'This time Samsung does very well. Currently Best Premium Smartphone in market.'}, {'Product': 'samsungs23', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Finally received after 20 days in pre-order sale. Mobile is great in every aspect. Camera is perfect.'}, {'Product': 'samsungs23', 'Name': 'Gaurav  Apte', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Portrait mode is excellent.Night mode performance is very good.pictures are clear and sharp.Charging speed could have been better but yes battery is optimised very well so easily lasts for a day.'}, {'Product': 'samsungs23', 'Name': 'Pranshu  Singh', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'From iphone 12 mini to this Best phone'}, {'Product': 'samsungs23', 'Name': 'Amit Shah', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Amazing phone by Samsung, except battery life it gives absolute flagship performance and I loved it...'}, {'Product': 'samsungs23', 'Name': 'Amit Shah', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Amazing phone by Samsung, except battery life it gives absolute flagship performance and I loved it...'}]
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:04:35] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:04:35] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:04:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:log my final result []
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:04:46] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:04:46] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:04:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:05:15] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:05:15] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:05:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.8:5000/ (Press CTRL+C to quit)
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:05:52] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:05:52] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:05:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:list index out of range
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:06:07] "POST /review HTTP/1.1" 200 -
+INFO:root:log my final result []
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:06:23] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:06:23] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:06:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'lgwashingmachine', 'Name': 'Ajithlal K K', 'Rating': '3', 'CommentHead': 'Just okay', 'Comment': 'Pros 1. Price to value ratio is very good on this model 2.Smart  Inverter motor and energy efficient3. Above average spin speed4. Machine made for last longer 5. Very elegant, and simple to use functions 6. Comes with seperate softener and bleach dispenser. Cons :1. Flipkart delivery was very careless, 1 side is already have a bend due to improper handling , and there was no thermocol cushioning on that side also 2.  Slowly closing lid function is must for all washing machine with g...'}, {'Product': 'lgwashingmachine', 'Name': 'Saurav Kumar Suman', 'Rating': '4', 'CommentHead': 'Nice product, can recommend to buy', 'Comment': 'Pros:* Good for small family, clean and simple UI and easy to operate for old age people (specially if you are buying for father/mother/grand father/grand mother)* PAN India LG service, faster installation* 5 Star energy saving variant is good (my purchase is 5 star variant, and recommend the same)* Nearly no sound (sounds little and vibrates a bit during spin [#only during spin])Cons:* Water pressure is little slow'}, {'Product': 'lgwashingmachine', 'Name': 'Pradeep Srinadhu', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Super intilgent machine.it is great machine with less buttons which is way convenient for elders or starters who will be easy to use.Just press power button and start button,rest machine is calculating load and it is automatically setting time needed and water needed to finish the wash. Wash quality is good and dry output is around 70%.'}, {'Product': 'lgwashingmachine', 'Name': 'Amar kumar', 'Rating': '1', 'CommentHead': 'Absolute rubbish!', 'Comment': "I am writing this review after using almost three months.Pros:- Easy to use after all it is automaticCons:-1. Wash quality is extremely bad even detergent not get washed forget about some hard strain. You can see detergent marks after drying the cloths. (Using Surf Excel liquid detergent)2. Takes too much water.3. Takes so much time even in less clothes.I wonder how this machine got average rating of 4.3.For me it's waste of money.Please go for front load or semi automatic washing ..."}, {'Product': 'lgwashingmachine', 'Name': 'Rajesh kumar bal bal', 'Rating': '4', 'CommentHead': 'Wonderful', 'Comment': 'Best product'}, {'Product': 'lgwashingmachine', 'Name': 'Prem Jalepolellu ', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Best washing machine no noise, no vibration and very smoothly running :- 9/10No complaints to LG.Dont think of this machine just buy It.'}, {'Product': 'lgwashingmachine', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': "Product is great n worth for price. But the installation service was very bad. They kept postponing the installation and some of the guys from LG service center were very rude also. They suggested to return LG product but as a fan of LG I didn't. Finally after multiple follow ups it was installed. Yeshwanth kumar who came for installation was nice n very intelligent guy."}, {'Product': 'lgwashingmachine', 'Name': 'Sandeep  panwar', 'Rating': '3', 'CommentHead': 'Does the job', 'Comment': 'I have purchase this product in the Month of Nov. It was working smoothly from last 4 months but suddenly electrical short circuit in last week so very poor experience with LG&  Still care service not avialable from cmpny due to lockdown.'}, {'Product': 'lgwashingmachine', 'Name': 'Kiran Rebba', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': "Dear buyer if your planning to buy top load washing machine please go for LG it's really worth to buy in such a great price. LG washing machine it works so smoothly..not produce sound while in working...thumps up for LG..washing machine"}, {'Product': 'lgwashingmachine', 'Name': 'Roopa Raja', 'Rating': '1', 'CommentHead': 'Useless product', 'Comment': "Very worst product Flipkart cheating customer , don't buy Flipkart guys ,"}, {'Product': 'lgwashingmachine', 'Name': 'Roopa Raja', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': "Very worst product Flipkart cheating customer , don't buy Flipkart guys ,"}]
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:06:31] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:06:31] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:06:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:06:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:06:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:06:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:06:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:07:03] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:07:03] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:07:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.8:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:41:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:41:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:41:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:41:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:The "dnspython" module must be installed to use mongodb+srv:// URIs. To fix this error install pymongo with the srv extra:
+ C:\Users\321ha\AppData\Local\Programs\Python\Python36-32\python.exe -m pip install "pymongo[srv]"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:41:28] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:The "dnspython" module must be installed to use mongodb+srv:// URIs. To fix this error install pymongo with the srv extra:
+ C:\Users\321ha\AppData\Local\Programs\Python\Python36-32\python.exe -m pip install "pymongo[srv]"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:41:37] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:The "dnspython" module must be installed to use mongodb+srv:// URIs. To fix this error install pymongo with the srv extra:
+ C:\Users\321ha\AppData\Local\Programs\Python\Python36-32\python.exe -m pip install "pymongo[srv]"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:41:43] "POST /review HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.8:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:44:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:44:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:44:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:The "dnspython" module must be installed to use mongodb+srv:// URIs. To fix this error install pymongo with the srv extra:
+ C:\Users\321ha\AppData\Local\Programs\Python\Python36-32\python.exe -m pip install "pymongo[srv]"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:45:09] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:The "dnspython" module must be installed to use mongodb+srv:// URIs. To fix this error install pymongo with the srv extra:
+ C:\Users\321ha\AppData\Local\Programs\Python\Python36-32\python.exe -m pip install "pymongo[srv]"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:45:36] "POST /review HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.8:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:52:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:52:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:52:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:The "dnspython" module must be installed to use mongodb+srv:// URIs. To fix this error install pymongo with the srv extra:
+ C:\Users\321ha\AppData\Local\Programs\Python\Python36-32\python.exe -m pip install "pymongo[srv]"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:52:28] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:The "dnspython" module must be installed to use mongodb+srv:// URIs. To fix this error install pymongo with the srv extra:
+ C:\Users\321ha\AppData\Local\Programs\Python\Python36-32\python.exe -m pip install "pymongo[srv]"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:52:38] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:The "dnspython" module must be installed to use mongodb+srv:// URIs. To fix this error install pymongo with the srv extra:
+ C:\Users\321ha\AppData\Local\Programs\Python\Python36-32\python.exe -m pip install "pymongo[srv]"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 21:52:44] "POST /review HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.8:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:05:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:05:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:05:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:05:59] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:05:59] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:05:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:06:11] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:06:11] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:06:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:06:51] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:06:51] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:06:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.8:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:10:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:10:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:10:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'samsungs23', 'Name': 'Rajesh S Hattaraki', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Camera and display quality is awesomeThere is no comparison in this segment.'}, {'Product': 'samsungs23', 'Name': 'Nagesh', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Amazing camera and Good performance..best choice'}, {'Product': 'samsungs23', 'Name': 'Deepak Gowda', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Nice phone with best camera. Face id recognization average..'}, {'Product': 'samsungs23', 'Name': 'Rishabh ', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Amazing photos, elegant design'}, {'Product': 'samsungs23', 'Name': 'HARSHIL MEHTA', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Amazing Product, Light Weight, Best Camera, Handy, Compact Premium Smart Phone.'}, {'Product': 'samsungs23', 'Name': 'Kishore Charan', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'This time Samsung does very well. Currently Best Premium Smartphone in market.'}, {'Product': 'samsungs23', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Finally received after 20 days in pre-order sale. Mobile is great in every aspect. Camera is perfect.'}, {'Product': 'samsungs23', 'Name': 'Gaurav  Apte', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Portrait mode is excellent.Night mode performance is very good.pictures are clear and sharp.Charging speed could have been better but yes battery is optimised very well so easily lasts for a day.'}, {'Product': 'samsungs23', 'Name': 'Pranshu  Singh', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'From iphone 12 mini to this Best phone'}, {'Product': 'samsungs23', 'Name': 'Amit Shah', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Amazing phone by Samsung, except battery life it gives absolute flagship performance and I loved it...'}, {'Product': 'samsungs23', 'Name': 'Amit Shah', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Amazing phone by Samsung, except battery life it gives absolute flagship performance and I loved it...'}]
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:10:25] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:10:25] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:10:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.8:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:11:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:11:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:11:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'samsungs23', 'Name': 'Rajesh S Hattaraki', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Camera and display quality is awesomeThere is no comparison in this segment.'}, {'Product': 'samsungs23', 'Name': 'Nagesh', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Amazing camera and Good performance..best choice'}, {'Product': 'samsungs23', 'Name': 'Deepak Gowda', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Nice phone with best camera. Face id recognization average..'}, {'Product': 'samsungs23', 'Name': 'Rishabh ', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Amazing photos, elegant design'}, {'Product': 'samsungs23', 'Name': 'HARSHIL MEHTA', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Amazing Product, Light Weight, Best Camera, Handy, Compact Premium Smart Phone.'}, {'Product': 'samsungs23', 'Name': 'Kishore Charan', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'This time Samsung does very well. Currently Best Premium Smartphone in market.'}, {'Product': 'samsungs23', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Finally received after 20 days in pre-order sale. Mobile is great in every aspect. Camera is perfect.'}, {'Product': 'samsungs23', 'Name': 'Gaurav  Apte', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Portrait mode is excellent.Night mode performance is very good.pictures are clear and sharp.Charging speed could have been better but yes battery is optimised very well so easily lasts for a day.'}, {'Product': 'samsungs23', 'Name': 'Pranshu  Singh', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'From iphone 12 mini to this Best phone'}, {'Product': 'samsungs23', 'Name': 'Amit Shah', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Amazing phone by Samsung, except battery life it gives absolute flagship performance and I loved it...'}, {'Product': 'samsungs23', 'Name': 'Amit Shah', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Amazing phone by Samsung, except battery life it gives absolute flagship performance and I loved it...'}]
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:12:04] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:12:04] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2024 22:12:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
